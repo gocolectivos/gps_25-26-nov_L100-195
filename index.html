@@ -17,10 +17,26 @@
             padding: 0;
             margin: 0;
         }
+		
+		#banner {
+            position: absolute;
+            top: 10px;
+            left: 40px;
+            background-color: #3498db;
+            color: #fff;
+            padding: 15px;
+            z-index: 1000;
+            font-family: 'Calibri', sans-serif;
+            font-weight: bold;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
         </style>
         <title></title>
     </head>
     <body>
+	    <div id="banner">OPERACIÓN FIN DE SEMANA<br>25 Y 26 DE NOVIEMBRE 2023<br>LÍNEAS 100 A 195</div>
+		<div id="map"></div>
         <div id="map">
         </div>
         <script src="js/qgis2web_expressions.js"></script>
